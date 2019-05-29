@@ -8,8 +8,9 @@ This project can be built with [Apache Maven](http://maven.apache.org/).
 Pre-requisites: Java 1.8
 
 Use the following steps to run the application locally:
+After downloading the project, navigate to the root folder(where pom.xml file is available) in the command prompt.
 
-1. Execute full Maven build to create the `target/JavaHelloWorldApp.war` file:
+1. Execute full Maven build to set up the project locally. This will also run the test cases completely.
     ```bash
     $ mvn clean install
     ```
